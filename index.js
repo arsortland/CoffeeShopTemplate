@@ -4,8 +4,6 @@ app.get('/', (req, res ) => {
     res.sendFile(__dirname + '/Index.html') 
 }
 
-app.use(express.static('public'));
-
 );
 
 const port = process.env.PORT || 8080;
